@@ -15,6 +15,9 @@
   font-style: normal;
   font-weight: normal;
 }
+html{
+  scroll-behavior: smooth;
+}
 .quote{
   font-family: 'Caveat', cursive;
   font-size: 40px!important;
