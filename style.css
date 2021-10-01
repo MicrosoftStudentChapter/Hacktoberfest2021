@@ -1,4 +1,4 @@
-/* @font-face {
+zz/* @font-face {
     font-family: "Calibri";
     src: url("fonts/Calibri.eot?#iefix") format("embedded-opentype"),
         url("fonts/Calibri.woff") format("woff"),
@@ -850,149 +850,179 @@ a:active {
 
 @media screen and (min-width: 992px) {
   .homepage-featured-events {
-    min-height: 1000px;
+      min-height: 1000px;
   }
 
   .featured-events-wrap .event-content-wrap {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-bottom: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-bottom: 0;
   }
 
   .homepage-featured-events .positioning-event-1 {
-    width: 350px;
+      width: 350px;
   }
 
   .homepage-featured-events .positioning-event-2 {
-    width: 320px;
-    top: 122px;
-    left: 250px;
+      width: 320px;
+      top: 122px;
+      left: 250px;
   }
 
   .homepage-featured-events .positioning-event-3 {
-    width: 310px;
-    top: 75px;
-    left: 560px;
+      width: 310px;
+      top: 75px;
+      left: 560px;
   }
 
   .homepage-featured-events .positioning-event-4 {
-    width: 230px;
-    top: 235px;
-    left: 800px;
+      width: 230px;
+      top: 235px;
+      left: 800px;
   }
 
   .homepage-featured-events .positioning-event-5 {
-    width: 230px;
-    top: 300px;
-    left: 0;
+      width: 230px;
+      top: 300px;
+      left: 0;
   }
 
   .homepage-featured-events .positioning-event-6 {
-    width: 300px;
-    top: 300px;
-    left: 580px;
+      width: 300px;
+      top: 300px;
+      left: 580px;
   }
 
   .homepage-featured-events .positioning-event-7 {
-    width: 280px;
-    top: 400px;
-    left: 100px;
+      width: 280px;
+      top: 400px;
+      left: 100px;
   }
 
   .homepage-featured-events .positioning-event-8 {
-    width: 420px;
-    top: 457px;
-    left: 260px;
+      width: 420px;
+      top: 457px;
+      left: 260px;
   }
 
   .homepage-featured-events .positioning-event-9 {
-    width: 310px;
-    top: 395px;
-    left: 720px;
+      width: 310px;
+      top: 395px;
+      left: 720px;
   }
 
   .homepage-featured-events .positioning-event-10 {
-    width: 230px;
-    top: 653px;
-    left: 690px;
+      width: 230px;
+      top: -53px;
+      left: 690px;
+      z-index: -1;
   }
 
   .homepage-featured-events .positioning-event-11 {
-    width: 270px;
-    top: 600px;
-    left: 20px;
+      width: 270px;
+      top: 600px;
+      left: 20px;
   }
+
+  .homepage-featured-events .positioning-event-12 {
+      width: 270px;
+      top: -31px;
+      left: 367px;
+  }
+
+  .homepage-featured-events .positioning-event-13 {
+      width: 270px;
+      top: 593px;
+      left: 642px;
+  }
+
+
 }
 
 @media screen and (min-width: 1200px) {
   .homepage-featured-events {
-    min-height: 1200px;
+      min-height: 1200px;
   }
 
   .homepage-featured-events .positioning-event-1 {
-    width: 350px;
+      width: 350px;
   }
 
   .homepage-featured-events .positioning-event-2 {
-    width: 320px;
-    top: 122px;
-    left: 250px;
+      width: 320px;
+      top: 122px;
+      left: 250px;
   }
 
   .homepage-featured-events .positioning-event-3 {
-    width: 310px;
-    top: 75px;
-    left: 560px;
+      width: 310px;
+      top: 75px;
+      left: 560px;
   }
 
   .homepage-featured-events .positioning-event-4 {
-    width: 230px;
-    top: 235px;
-    left: 800px;
+      width: 230px;
+      top: 235px;
+      left: 800px;
   }
 
   .homepage-featured-events .positioning-event-5 {
-    width: 230px;
-    top: 300px;
-    left: 0;
+      width: 230px;
+      top: 300px;
+      left: 0;
   }
 
   .homepage-featured-events .positioning-event-6 {
-    width: 300px;
-    top: 300px;
-    left: 580px;
+      width: 300px;
+      top: 300px;
+      left: 580px;
   }
 
   .homepage-featured-events .positioning-event-7 {
-    width: 280px;
-    top: 400px;
-    left: 100px;
+      width: 280px;
+      top: 400px;
+      left: 100px;
   }
 
   .homepage-featured-events .positioning-event-8 {
-    width: 420px;
-    top: 457px;
-    left: 260px;
+      width: 420px;
+      top: 457px;
+      left: 260px;
   }
 
   .homepage-featured-events .positioning-event-9 {
-    width: 310px;
-    top: 395px;
-    left: 720px;
+      width: 310px;
+      top: 395px;
+      left: 720px;
   }
 
   .homepage-featured-events .positioning-event-10 {
-    width: 230px;
-    top: 653px;
-    left: 690px;
+      width: 230px;
+      top: -53px;
+      left: 690px;
+      z-index: -1;
   }
 
   .homepage-featured-events .positioning-event-11 {
-    width: 270px;
-    top: 600px;
-    left: 20px;
+      width: 270px;
+      top: 600px;
+      left: 20px;
   }
+
+  .homepage-featured-events .positioning-event-12 {
+      width: 270px;
+      top: -31px;
+      left: 367px;
+  }
+
+  .homepage-featured-events .positioning-event-13 {
+      width: 270px;
+      top: 593px;
+      left: 642px;
+  }
+
+
 }
 
 /*--------------------------------------------------------------
