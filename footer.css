@@ -2,7 +2,7 @@
     
     text-align: center;
     padding: 2em 2em 0em 2em !important;
-    background-color: #2b3531;
+    background-color: #16211d;
     color: white;
     position: relative;
 }
@@ -10,8 +10,8 @@
 .back-to-top {
     width: 7rem;
     height: 7rem;
-    background-color: #2b3531;
-    border-color: #2b3531;
+    background-color: #16211d;
+    border-color: #16211d;
     position: absolute;
     top: -3rem;
     left: 50%;
@@ -67,4 +67,10 @@ h5{
 }
 .contactcolor{
     color: white !important;
+}
+@media screen and (max-width:800px) {
+
+    ul{
+        margin-left: 0px;
+    }
 }
