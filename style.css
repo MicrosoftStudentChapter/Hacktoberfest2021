@@ -1091,7 +1091,7 @@ a:active {
   font-weight: bold;
   color: #fff;
 
-  background: #9a28d7;
+  background: #F74700;
 }
 
 .homepage-next-events .next-event-wrap .entry-title {
@@ -1136,8 +1136,8 @@ a:active {
 }
 
 .homepage-next-events .next-event-wrap .entry-footer a:hover {
-  border-color: #9a28d7;
-  color: #9a28d7;
+  border-color: #F74700;
+  color: #F74700;
 }
 
 /*--------------------------------------------------------------
@@ -2523,7 +2523,7 @@ ul.tabs-nav .tab-nav.active {
   
   padding: 110px 0 150px;
   background-size: cover !important;
-  background: url("images/a-1.png") no-repeat center;
+  background: url("images/banner-dark.png") no-repeat center;
 }
 .discord-button {
   position: fixed;
