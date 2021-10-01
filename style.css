@@ -1045,7 +1045,7 @@ a:active {
 .events-partners .entry-title {
   padding: 25px 0;
   padding-bottom: 70px;
-  font-size: 60px;
+  font-size: 200%;
   font-weight: bold;
   line-height: 1;
   color: #232127;
@@ -2493,7 +2493,7 @@ ul.tabs-nav .tab-nav.active {
 
 .back-to-top {
   position: fixed;
-  z-index: 9999;
+  z-index: 1s;
   right: 64px;
   bottom: 84px;
   width: 42px;
