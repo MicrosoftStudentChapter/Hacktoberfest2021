@@ -187,23 +187,29 @@ a:active {
   font-weight: 500;
 }
 
+
+.back {
+  margin-top: -0.07%;
+  padding: 7%;
+}
+.backg {
+  padding: 7%;
+  background-color: #2b3531;
+  margin-bottom: -0.1%;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 /*
 # Site Header
 --------------------------------*/
-.site-header {
+/* .site-header {
   position: relative;
 }
 
 .site-header .site-title img {
   max-height: 64px;
 }
-
-/*
-# Header Bar
---------------------------------*/
 .header-bar {
   position: absolute;
   top: 0;
@@ -211,12 +217,17 @@ a:active {
   z-index: 99;
   width: 100%;
   padding: 14px 0;
-}
+} */
+
+/*
+# Header Bar
+--------------------------------*/
+
 
 /*
 # Site Branding
 --------------------------------*/
-.site-branding img {
+/* .site-branding img {
   display: block;
   max-width: 100%;
 }
@@ -237,7 +248,7 @@ a:active {
 
 #logotext1 {
   color: white;
-}
+}*
 
 @media screen and (min-width: 576px) {
   #logotext {
@@ -274,11 +285,12 @@ a:active {
     left: 14vw;
     top: 1vw;
   }
-}
+}  
 
 /*
   Hamburger Menu
 ----------------------------------------*/
+/* 
 .hamburger-menu {
   position: relative;
   width: 100%;
@@ -288,14 +300,7 @@ a:active {
   transition: 0.5s ease-in-out;
   cursor: pointer;
 }
-.back {
-  margin-top: -0.07%;
-  padding: 7%;
-}
-.backg {
-  margin-bottom: -0.08%;
-  padding: 7%;
-}
+
 .hamburger-menu span {
   display: block;
   position: absolute;
@@ -340,11 +345,7 @@ a:active {
   width: 0;
   left: 50%;
 }
-
-/*
-# Main Menu
---------------------------------*/
-.site-navigation {
+ .site-navigation {
   position: absolute;
   top: -22px;
   right: 15px;
@@ -356,44 +357,54 @@ a:active {
   transition: all 0.35s;
 }
 
-.site-navigation.show {
-  height: auto;
-}
+ .site-navigation ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative; */
+    /* top: auto;
+    left: auto; */
+    /* width: 100%; */
+    /* height: auto; */
+    /* padding: 10%; */
+    /* overflow: auto;
+    background: transparent;
+  }
 
-.site-navigation ul {
-  position: fixed;
-  top: 0;
-  left: -320px;
-  z-index: 9999;
-  width: 320px;
-  max-width: 80%;
-  height: 100vh;
-  overflow-x: scroll;
-  padding: 30px;
-  margin: 0;
-  background: #b53a25;
-  transition: all 0.35s;
-}
+  .site-navigation ul li a {
+    color: #f74700;
+  }
 
-.site-navigation.show ul {
+  .site-navigation.show ul {
   left: 0;
 }
-
 .site-navigation ul li {
-  display: block;
-  padding: 10px 16px;
+  /* display: block; */
+  /* padding: 10px 16px;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 0.02rem;
   text-transform: uppercase;
 }
-
 .site-navigation ul li a {
   display: block;
   color: #fff;
   transition: all 0.35s;
   text-decoration: none;
-}
+}  */
+/*
+# Main Menu
+--------------------------------*/
+/*
+
+.
+
+
+
+
+
+
 
 .site-navigation ul li a:hover,
 .site-navigation ul li.current-menu-item a {
@@ -409,30 +420,13 @@ a:active {
     background: transparent;
   }
 
-  .site-navigation ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: center;
-    position: relative;
-    top: auto;
-    left: auto;
-    width: 100%;
-    height: auto;
-    padding: 0;
-    overflow: auto;
-    background: transparent;
-  }
-
-  .site-navigation ul li a {
-    color: #f74700;
-  }
-}
+ 
+} */
 
 /*
 # Buy Tickets
 --------------------------------*/
-.site-header .buy-tickets {
+/* .site-header .buy-tickets {
   margin-right: 45px;
   text-align: right;
 }
@@ -441,7 +435,7 @@ a:active {
 .hero-slider .btn {
   padding: 16px 46px;
   border: 2px solid #fff;
-}
+} */
 
 /*--------------------------------------------------------------
 # Hero Section
