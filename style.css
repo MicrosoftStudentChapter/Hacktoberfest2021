@@ -7,7 +7,7 @@
     font-weight: normal;
     font-style: normal;
 } */
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
@@ -15,7 +15,11 @@
   font-style: normal;
   font-weight: normal;
 }
-
+.quote{
+  font-family: 'Caveat', cursive;
+  font-size: 40px!important;
+  
+}
 .hck-heading {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -667,6 +671,8 @@ a:active {
 
 .homepage-info-section figure img {
   max-width: 100%;
+  margin-left: -25%;
+    margin-top: 37%;
 }
 
 .homepage-info-section .entry-title {
@@ -683,7 +689,7 @@ a:active {
 .homepage-info-section .entry-content p {
   font-size: 18px;
   line-height: 1.7;
-  color: #777777;
+  color: #000000;
 }
 
 .homepage-info-section .entry-footer a {
@@ -2514,7 +2520,7 @@ ul.tabs-nav .tab-nav.active {
 
 .homepage-next-events {
   height: auto;
-  margin-top: 100px;
+  
   padding: 110px 0 150px;
   background-size: cover !important;
   background: url("images/a-1.png") no-repeat center;
@@ -2550,4 +2556,10 @@ ul.tabs-nav .tab-nav.active {
 }
 .mybutton {
   list-style: none;
+}
+@media screen and (max-width:800px) {
+  .homepage-info-section figure img {
+    max-width: 100%;
+  margin-left:5%;
+  }
 }
