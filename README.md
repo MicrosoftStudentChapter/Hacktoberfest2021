@@ -1,6 +1,6 @@
 # Hacktoberfest2k21 ([Current Website](https://hacktoberfest.digitalocean.com/))
 
- Hacktoberfest is a month-long global celebration of open source software, with a strong focus on encouraging contributions to open source projects.Seeking for where to proceed scroll down and watch the videos(links mentioned below) and read the contribution details. Here we present before you the moment of celebration of this feast with us at the Microsoft Learn Student Chapter.Happy Hacking!!
+ Hacktoberfest is a month-long global celebration of open source software, with a strong focus on encouraging contributions to open source projects.Seeking for where to proceed scroll down and watch the videos(links mentioned below) and read the contribution details. Here we present before you the moment of celebration of this feast with us at the Microsoft Learn Student Chapter. Happy Hacking!!
 
  [Hacktoberfest 2021](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
 
@@ -82,7 +82,7 @@ This will give you any eventual conflicts and allow you to easily solve them in 
 
 
 - How can we receive swags and Goodies?
-    - By making atleast 5 Pull requests in the repositories recognised by Hacktoberfest.
+    - By making atleast 4 Pull requests in the repositories recognised by Hacktoberfest.
 
 - What are the benefits of participation?
     - Encourages participation in open source community.
