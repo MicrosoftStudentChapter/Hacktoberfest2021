@@ -50,7 +50,7 @@
     color: aliceblue;
     margin-bottom: 1rem;
 }
-ul{
+#social{
     text-decoration: none;
     list-style: none;
     display: flex;
@@ -70,7 +70,7 @@ h5{
 }
 @media screen and (max-width:800px) {
 
-    ul{
+#social{
         margin-left: 0px;
     }
 }
