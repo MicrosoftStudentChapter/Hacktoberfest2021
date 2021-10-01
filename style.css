@@ -708,13 +708,14 @@ a:active {
 .picture {
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #d8d0d0;
 }
 
 .wave {
   position: absolute;
   overflow: hidden;
   left: 0;
-  width: 200%;
+  
   height: 100%;
   background-repeat: repeat;
   background-position: 0 bottom;
@@ -755,7 +756,7 @@ a:active {
   height: 100px;
   margin-top: -100px;
   opacity: 0.4;
-  animation: move1 12s linear infinite;
+  /* animation: move1 12s linear infinite; */
 }
 
 @keyframes move1 {
@@ -778,6 +779,7 @@ a:active {
 .homepage-featured-events {
   height: auto;
   padding: 110px 0 150px;
+  background-color: #d8d0d0;
   background-size: cover !important;
 }
 
@@ -786,15 +788,23 @@ a:active {
   padding: 36px 18px;
 }
 
-.homepage-featured-events .event-content-wrap figure {
+/* .homepage-featured-events .event-content-wrap figure {
   margin: -36px -18px;
-}
+} */
 
 .homepage-featured-events .event-content-wrap figure img {
   display: block;
   width: 100%;
+  
 }
-
+@media screen and(min-width:1000px) {
+  .homepage-featured-events .event-content-wrap figure img {
+    display: block;
+    width: 100%;
+    margin-left: 100px !important;
+  }
+  
+}
 .homepage-featured-events .event-content-wrap .entry-header {
   position: absolute;
   left: 18px;
@@ -1148,8 +1158,8 @@ a:active {
 .homepage-regional-events {
   min-height: 1000px;
   padding-top: 50px;
-  background: #eee2b3;
-  background-size: cover;
+  background-size: cover !important;
+    background: url(images/banner-dark.png) no-repeat center;
 }
 
 .homepage-regional-events .regional-events-heading .entry-title {
