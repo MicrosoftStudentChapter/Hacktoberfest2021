@@ -1,26 +1,23 @@
-# Hacktoberfest2k21 ([Current Website](https://hacktoberfest.digitalocean.com/))
+# Hacktoberfest2k21
+<img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hf-icon.6b4a329.svg" width="150" height="150">
 
- Hacktoberfest is a month-long global celebration of open source software, with a strong focus on encouraging contributions to open source projects.Seeking for where to proceed scroll down and watch the videos(links mentioned below) and read the contribution details. Here we present before you the moment of celebration of this feast with us at the Microsoft Learn Student Chapter.Happy Hacking!!
+**[MLSC, TIET](https://mlsctiet.co.in/)** is here to celebrate the month-long global celebration of open source software, the **[Hacktoberfest]()**, with a strong focus on encouraging contributions to open source projects. Many fun events, workshops, goodies, prizes, and other cool stuff await you as this tech bonanza begins!
+Scroll down to see the details about contribution and open source. 
 
- [Hacktoberfest 2021](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
+ ## Video Links
 
-
-
- # Video Links
-
-- [Introduction to Hacktoberfest](https://youtu.be/OsAFX_ZbgaE)
-- [How to pull request [Overview]](https://youtu.be/DIj2q02gvKs)
-- [How to merge Conflict / comment](https://youtu.be/zOx5PJTY8CI)
+- [How to generate pull request](https://youtu.be/DIj2q02gvKs)
+- [How to solve git merge conflict/comment](https://youtu.be/zOx5PJTY8CI)
 - [Beginner Friendly Issues](https://goodfirstissue.dev/)
 
-## Guide to Hacktoberfest
+## Guide to Contribution
 
 - Fork the repo to contribute 
 - Clone on your local machine
 
 ```terminal
-git clone (copy link from the code and paste)
-cd Hacktoberfest2k21
+git clone (copy link of the repo and paste)
+cd (name of folder where you cloned the repo)
 ```
 
 - Create a new branch
@@ -60,11 +57,13 @@ git merge upstream/master
 
 This will give you any eventual conflicts and allow you to easily solve them in your repo.
 
+### Note: In hacktoberfest, only valid PRs count. Make sure you make PRs to the repositories or issues which are hacktoberfest accepted or have the hacktoberfest tag on them. Before you start writing code, make sure to sign up [here](https://hacktoberfest.digitalocean.com/profile) so that your contributions count. More details about a valid pull request can be found at the [official website](https://hacktoberfest.digitalocean.com/). 
+
 # FAQs
 - What is Open-source?
-    - Open-source software is computer software that is released under a license in which the copyright holder      grants users the rights to use, study, change, and distribute the software and its source code to anyone and for any purpose.
+    - Open-source software is computer software that is released under a license in which the copyright holder grants users the rights to use, study, change, and distribute the software and its source code to anyone and for any purpose.
 
-- Who can contribute?
+- Who can contribute to hacktoberfest?
     - Anyone with a github account who registered for Hacktoberfest.
 
 - What is the duration of Hacktoberfest 2021?
@@ -82,7 +81,7 @@ This will give you any eventual conflicts and allow you to easily solve them in 
 
 
 - How can we receive swags and Goodies?
-    - By making atleast 5 Pull requests in the repositories recognised by Hacktoberfest.
+    - By making atleast 4 Pull requests in the repositories recognised by Hacktoberfest.
 
 - What are the benefits of participation?
     - Encourages participation in open source community.
@@ -90,8 +89,5 @@ This will give you any eventual conflicts and allow you to easily solve them in 
     - Enhancement of github and other technology skills.
     - Chance to bag exciting swags and goodies.
 
-
-
-
-
-
+P.S. Don't forget to checkout our other projects at https://github.com/MicrosoftStudentChapter and try solving the issues.
+## Happy hacking! May the odds be in your favour!
