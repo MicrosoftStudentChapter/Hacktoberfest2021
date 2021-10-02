@@ -776,6 +776,9 @@ a:active {
   background-color: #d8d0d0;
   background-size: cover !important;
 }
+.homepage-featured-events img:hover {
+    opacity: 0.5;
+}
 
 .homepage-featured-events .event-content-wrap {
   position: relative;
@@ -1154,6 +1157,10 @@ a:active {
   padding-top: 50px;
   background-size: cover !important;
     background: url(images/banner-dark.png) no-repeat center;
+}
+
+.homepage-regional-events img:hover {
+    opacity: 0.5;
 }
 
 .homepage-regional-events .regional-events-heading .entry-title {

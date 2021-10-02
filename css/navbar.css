@@ -7,6 +7,7 @@
     padding: 14px 0;
 }
 
+
 @media screen and (max-width:1000px) {
    .navimg {
         width: 20% !important;
@@ -149,6 +150,10 @@
     transition: all 0.35s;
 }
 
+.site-navigation a:hover {
+    color: darkorange;
+}
+
 .site-navigation.show {
     height: auto;
 }
@@ -220,4 +225,6 @@
     .site-navigation ul li a {
         color: #f74700;
     }
+     
 }
+
