@@ -1,5 +1,5 @@
 .header-bar {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 99;
@@ -19,6 +19,7 @@
 .navimg {
     display: block;
     max-width: 100%;
+    transition: all .2s ease-in-out;
 }
 
 #logotext {

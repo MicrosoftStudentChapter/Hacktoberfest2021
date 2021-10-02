@@ -196,9 +196,13 @@ a:active {
   padding: 7%;
 }
 .backg {
-  padding: 7%;
   background-color: #2b3531;
-  margin-bottom: -0.1%;
+}
+.backg.activate .navimg {
+  max-width: 120px;
+}
+.backg.activate .header-bar {
+  background-color: rgba(43, 53, 49, .7);
 }
 /*--------------------------------------------------------------
 # Header

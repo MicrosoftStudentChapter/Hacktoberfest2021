@@ -256,4 +256,29 @@
       );
     });
   }
+
+  $(window).scroll((e) => {
+    rafDebounce(scrollHandler());
+  });
+  function scrollHandler() {
+    if ($(document).scrollTop() >= 1) {
+      $('.backg').addClass('activate');
+    } else {
+      $('.backg').removeClass('activate');
+    }
+  }
+  
+  function rafDebounce(cb) {
+    var isWaitingForFrame = true;
+    return () => {
+      if (isWaitingForFrame) {
+        window.requestAnimationFrame(() => {
+          isWaitingForFrame = true;
+          cb();
+        });
+        isWaitingForFrame = false;
+      }
+    };
+  }
 })(jQuery);
+
