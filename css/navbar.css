@@ -1,10 +1,12 @@
 .header-bar {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 99;
     width: 100%;
     padding: 14px 0;
+    background-color: #2b3531;
+    opacity: 0.9;
 }
 
 @media screen and (max-width:1000px) {
