@@ -7,6 +7,11 @@
     $(".site-navigation").toggleClass("show");
   });
 
+  $('.site-navigation a').on('click', function() {
+    $(".hamburger-menu").toggleClass("open");
+    $(".site-navigation").toggleClass("show");
+  });
+
   // Hero Slider
   var mySwiper = new Swiper(".hero-slider", {
     slidesPerView: 1,
