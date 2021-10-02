@@ -74,3 +74,10 @@ h5{
         margin-left: 0px;
     }
 }
+
+@media (max-width: 1203px){
+    .entry-footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
