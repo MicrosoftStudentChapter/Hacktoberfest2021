@@ -15,6 +15,9 @@
   font-style: normal;
   font-weight: normal;
 }
+html{
+  scroll-behavior: smooth;
+}
 .quote{
   font-family: 'Caveat', cursive;
   font-size: 40px!important;
@@ -2562,6 +2565,10 @@ ul.tabs-nav .tab-nav.active {
 }
 .mybutton {
   list-style: none;
+  transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.mybutton:hover{
+  transform: scale(1.2);
 }
 @media screen and (max-width:800px) {
   .homepage-info-section figure img {
