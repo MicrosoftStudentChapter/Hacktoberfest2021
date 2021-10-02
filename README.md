@@ -2,7 +2,7 @@
 <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hf-icon.6b4a329.svg" width="150" height="150">
 
 
-**[MLSC, TIET](https://mlsctiet.co.in/)** is here to celebrate the month-long global celebration of open source software, the   **[Hacktoberfest](https://hacktoberfest.mlsctiet.co.in/)**, with a strong focus on encouraging contributions to open source projects. Many fun events, workshops, goodies, prizes, and other cool stuff await you as this tech bonanza begins!
+**[MLSC, TIET](https://mlsctiet.co.in/)** is here to celebrate the month-long global celebration of open source software, the   **[Hacktoberfest](https://microsoftstudentchapter.github.io/Hacktoberfest2021//)**, with a strong focus on encouraging contributions to open source projects. Many fun events, workshops, goodies, prizes, and other cool stuff await you as this tech bonanza begins!
 Scroll down to see the details about contribution and open source. 
 
  ## Video Links
