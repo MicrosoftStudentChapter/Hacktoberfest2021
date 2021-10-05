@@ -20,8 +20,8 @@
 
     text-decoration: none;
 }
-
-.back-to-top i {
+/*replaced 'i' with 'a' to remove text decoration*/
+.back-to-top a {
     display: block;
     color: white;
     font-size: 2rem;
