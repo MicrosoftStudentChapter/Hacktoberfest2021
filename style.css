@@ -1,30 +1,38 @@
-/* @font-face {
-    font-family: "Calibri";
-    src: url("fonts/Calibri.eot?#iefix") format("embedded-opentype"),
-        url("fonts/Calibri.woff") format("woff"),
-        url("fonts/Calibri.ttf") format("truetype"),
-        url("fonts/Calibri.svg#Calibri") format("svg");
-    font-weight: normal;
-    font-style: normal;
-} */
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url("http://fonts.cdnfonts.com/css/jetbrains-mono");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --button-gradient: linear-gradient(
+    to right,
+    #ffe27d,
+    #d3ea8a,
+    #a8efa4,
+    #7fefc4,
+    #60ece2,
+    #48e5ee,
+    #3bdcf8,
+    #43d3ff,
+    #34c6ff,
+    #48b7ff,
+    #6ba6ff,
+    #9092ff
+  );
+}
+
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "JetBrains mono", sans-serif;
   font-style: normal;
   font-weight: normal;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-.quote{
-  font-family: 'Caveat', cursive;
-  font-size: 40px!important;
-  
+.quote {
+  font-family: "JetBrains mono", cursive;
+  font-size: 40px !important;
 }
 .hck-heading {
-  font-family: "Montserrat", sans-serif;
+  font-family: "JetBrains mono", sans-serif;
   font-style: normal;
   font-weight: normal;
   text-transform: uppercase;
@@ -54,6 +62,11 @@ html::-webkit-scrollbar {
   width: 0 !important;
 }
 
+*::selection {
+  background: #b4ff39;
+  color: #000;
+}
+
 html {
   overflow: -moz-scrollbars-none;
 }
@@ -62,21 +75,9 @@ html {
   -ms-overflow-style: none;
 }
 
-/* @font-face {
-  font-family: "rCr";
-  src: url("fonts/rcr.otf");
-}
-
-@font-face {
-  font-family: "lbv";
-  src: url("fonts/lbv.otf");
-} */
-
 body {
   overflow-x: hidden;
-  color: #f74700;
-  /* background-color: #0d1e45;*/
-  /*  font-family: 'Share Tech Mono', monospace;*/
+  color: #e5e1e6;
 }
 
 img {
@@ -87,7 +88,8 @@ img {
 # Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue;
+  color: #e5e1e6;
+  transition: all 0.1s ease-in-out;
 }
 
 a:visited {
@@ -97,12 +99,14 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-  color: midnightblue;
+  color: rgb(229, 225, 230);
+  text-shadow: rgb(255 215 77 / 60%) -1px -1px 6px,
+    rgb(124 127 255 / 60%) 1px 1px 6px;
 }
 
-a:focus {
+/* a:focus {
   outline: thin dotted;
-}
+} */
 
 a:hover,
 a:active {
@@ -140,13 +144,36 @@ a:active {
 
 .btn1 {
   padding: 16px 46px;
-  border: 2px solid #f74700;
-  border-radius: 50px;
+
   font-size: 19px;
   font-weight: bold;
   line-height: 1;
-  background-color: #f74700;
-  color: #fff !important;
+  filter: drop-shadow(rgba(255, 215, 77, 0.6) -1px -1px 2px)
+    drop-shadow(rgba(124, 127, 255, 0.6) 1px 1px 2px);
+  background-image: linear-gradient(
+    to right,
+    #ffe27d,
+    #d3ea8a,
+    #a8efa4,
+    #7fefc4,
+    #60ece2,
+    #48e5ee,
+    #3bdcf8,
+    #43d3ff,
+    #34c6ff,
+    #48b7ff,
+    #6ba6ff,
+    #9092ff
+  );
+  clip-path: polygon(
+    12px 0px,
+    100% 0px,
+    100% 72%,
+    calc(100% - 12px) 100%,
+    0px 100%,
+    0px 12px
+  );
+  color: rgb(23, 15, 30) !important;
   text-decoration: none !important;
   font-weight: 500;
 }
@@ -185,11 +212,41 @@ a:active {
 .btn.gradient-bg {
   padding: 18px 46px;
   border: 0;
-  background-color: #f74700;
-  color: #fff;
+  border-radius: 0;
+  clip-path: polygon(
+    12px 0px,
+    100% 0px,
+    100% 72%,
+    calc(100% - 12px) 100%,
+    0px 100%,
+    0px 12px
+  );
+  color: #e5e1e6 !important;
+  background-color: #170f1e;
   font-weight: 500;
 }
 
+.btn.gradient-bg:hover {
+  transition: all 0.5s ease-out;
+  filter: drop-shadow(rgba(255, 215, 77, 0.6) -1px -1px 2px)
+    drop-shadow(rgba(124, 127, 255, 0.6) 1px 1px 2px);
+  background-image: linear-gradient(
+    to right,
+    #ffe27d,
+    #d3ea8a,
+    #a8efa4,
+    #7fefc4,
+    #60ece2,
+    #48e5ee,
+    #3bdcf8,
+    #43d3ff,
+    #34c6ff,
+    #48b7ff,
+    #6ba6ff,
+    #9092ff
+  );
+  color: rgb(23, 15, 30) !important;
+}
 
 .back {
   margin-top: -0.07%;
@@ -197,7 +254,7 @@ a:active {
 }
 .backg {
   padding: 7%;
-  background-color: #2b3531;
+  background-color: #170f1e;
   margin-bottom: -0.1%;
 }
 /*--------------------------------------------------------------
@@ -225,7 +282,6 @@ a:active {
 /*
 # Header Bar
 --------------------------------*/
-
 
 /*
 # Site Branding
@@ -366,12 +422,12 @@ a:active {
     justify-content: flex-end;
     align-items: center;
     position: relative; */
-    /* top: auto;
+/* top: auto;
     left: auto; */
-    /* width: 100%; */
-    /* height: auto; */
-    /* padding: 10%; */
-    /* overflow: auto;
+/* width: 100%; */
+/* height: auto; */
+/* padding: 10%; */
+/* overflow: auto;
     background: transparent;
   }
 
@@ -384,7 +440,7 @@ a:active {
 }
 .site-navigation ul li {
   /* display: block; */
-  /* padding: 10px 16px;
+/* padding: 10px 16px;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 0.02rem;
@@ -443,20 +499,22 @@ a:active {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.hero-slider {
+
+.landing {
+  background-color: #170f1e;
 }
 
 .hero-content {
   padding-top: 150px;
   padding-bottom: 30%;
-  background-image: url("images/hackhero\ \(2\).png");
+  filter: drop-shadow(rgba(255, 215, 77, 0.6) -1px -1px 2px)
+    drop-shadow(rgba(124, 127, 255, 0.6) 1px 1px 2px);
+  background-image: url("images/2022/hero.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-}
-
-.landing {
-  background-color: #2b3531;
+  width: 80%;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 900px) {
@@ -477,10 +535,11 @@ a:active {
   .hero-content {
     padding-top: 150px;
     padding-bottom: 450px;
-    background-image: url("images/hackhero\ \(1\).png");
+    background-image: url("images/2022/hero-small.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    width: 90%;
   }
 }
 
@@ -495,7 +554,7 @@ a:active {
   line-height: 1.2;
   font-weight: bold;
   color: #fff;
-  font-family: "rCr";
+  font-family: "JetBrains mono";
 }
 
 .hero-slider .btn {
@@ -642,13 +701,13 @@ a:active {
 }
 
 @media screen and (min-width: 1200px) {
-  .backg{
+  .backg {
     padding-bottom: 1%;
     padding-top: 5%;
   }
   .hero-content {
-    background-size:70% ;
-    background-position:center;
+    background-size: 70%;
+    background-position: center;
   }
 
   .swiper-button-next {
@@ -665,7 +724,7 @@ a:active {
 --------------------------------------------------------------*/
 .homepage-info-section {
   padding: 60px 0;
-  background: #fff;
+  background: #e5e1e6;
 }
 
 .homepage-info-section figure {
@@ -675,7 +734,7 @@ a:active {
 .homepage-info-section figure img {
   max-width: 100%;
   margin-left: -25%;
-    margin-top: 37%;
+  margin-top: 37%;
 }
 
 .homepage-info-section .entry-title {
@@ -718,7 +777,7 @@ a:active {
   position: absolute;
   overflow: hidden;
   left: 0;
-  
+
   height: 100%;
   background-repeat: repeat;
   background-position: 0 bottom;
@@ -782,7 +841,7 @@ a:active {
 .homepage-featured-events {
   height: auto;
   padding: 110px 0 150px;
-  background-color: #d8d0d0;
+  background-color: #e5e1e6;
   background-size: cover !important;
 }
 
@@ -798,7 +857,6 @@ a:active {
 .homepage-featured-events .event-content-wrap figure img {
   display: block;
   width: 100%;
-  
 }
 @media screen and(min-width:1000px) {
   .homepage-featured-events .event-content-wrap figure img {
@@ -806,7 +864,6 @@ a:active {
     width: 100%;
     margin-left: 100px !important;
   }
-  
 }
 .homepage-featured-events .event-content-wrap .entry-header {
   position: absolute;
@@ -869,9 +926,7 @@ a:active {
 
 @media screen and (min-width: 992px) {
   .homepage-featured-events {
-
-      min-height: 1200px;
-
+    min-height: 1200px;
   }
 
   .featured-events-wrap .event-content-wrap {
@@ -1106,7 +1161,7 @@ a:active {
   font-weight: bold;
   color: #fff;
 
-  background: #F74700;
+  background: #f74700;
 }
 
 .homepage-next-events .next-event-wrap .entry-title {
@@ -1151,18 +1206,18 @@ a:active {
 }
 
 .homepage-next-events .next-event-wrap .entry-footer a:hover {
-  border-color: #F74700;
-  color: #F74700;
+  border-color: #f74700;
+  color: #f74700;
 }
 
 /*--------------------------------------------------------------
 # Homepage - Regional Events
 --------------------------------------------------------------*/
 .homepage-regional-events {
-  min-height: 1000px;
+  height: fit-content;
   padding-top: 50px;
-  background-size: cover !important;
-    background: url(images/banner-dark.png) no-repeat center;
+  padding-bottom: 50px;
+  background-color: #170f1e;
 }
 
 .homepage-regional-events .regional-events-heading .entry-title {
@@ -2510,10 +2565,9 @@ ul.tabs-nav .tab-nav.active {
   margin-top: -21px;
   border: 2px solid #fff;
   border-radius: 50%;
-  background: #9a28d7;
+  background: #9092ff !important;
   transition: all 0.35s;
   cursor: pointer;
-
   visibility: hidden;
   opacity: 0;
 }
@@ -2535,10 +2589,9 @@ ul.tabs-nav .tab-nav.active {
 
 .homepage-next-events {
   height: auto;
-  
+
   padding: 110px 0 150px;
-  background-size: cover !important;
-  background: url("images/banner-dark.png") no-repeat center;
+  background-color: #170f1e;
 }
 .discord-button {
   position: fixed;
@@ -2573,12 +2626,12 @@ ul.tabs-nav .tab-nav.active {
   list-style: none;
   transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.mybutton:hover{
+.mybutton:hover {
   transform: scale(1.2);
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .homepage-info-section figure img {
     max-width: 100%;
-  margin-left:5%;
+    margin-left: 5%;
   }
 }
