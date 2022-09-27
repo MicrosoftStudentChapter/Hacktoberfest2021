@@ -1,23 +1,6 @@
 @import url("http://fonts.cdnfonts.com/css/jetbrains-mono");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-:root {
-  --button-gradient: linear-gradient(
-    to right,
-    #ffe27d,
-    #d3ea8a,
-    #a8efa4,
-    #7fefc4,
-    #60ece2,
-    #48e5ee,
-    #3bdcf8,
-    #43d3ff,
-    #34c6ff,
-    #48b7ff,
-    #6ba6ff,
-    #9092ff
-  );
-}
 
 * {
   font-family: "JetBrains mono", sans-serif;
