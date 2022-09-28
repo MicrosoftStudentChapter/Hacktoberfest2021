@@ -1,5 +1,5 @@
-# Hacktoberfest2k21
-<img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hf-icon.6b4a329.svg" width="150" height="150">
+# Hacktoberfest2k22
+<img src="images\2022\hero.svg" alt="Logo" width="150" height="150">
 
 
 **[MLSC, TIET](https://mlsctiet.co.in/)** is here to celebrate the month-long global celebration of open source software, the   **[Hacktoberfest](https://hacktoberfest.mlsctiet.co.in/)**, with a strong focus on encouraging contributions to open source projects. Many fun events, workshops, goodies, prizes, and other cool stuff await you as this tech bonanza begins!
@@ -67,8 +67,8 @@ This will give you any eventual conflicts and allow you to easily solve them in 
 - Who can contribute to hacktoberfest?
     - Anyone with a github account who registered for Hacktoberfest.
 
-- What is the duration of Hacktoberfest 2021?
-  - It is from 1st october to 31st october 2021.
+- What is the duration of Hacktoberfest 2022?
+  - It is from 1st october to 31st october 2022.
 
 - What is the event for?
   - To encourage open source community engagement.
